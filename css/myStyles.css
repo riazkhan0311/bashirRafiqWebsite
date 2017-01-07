@@ -1,0 +1,11 @@
+.navbar-nav {
+    /*text-transform: lowercase;*/
+    color: blue;
+}
+
+.quote {
+    padding-bottom: 5px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: italic;
+    font-size: 18px;
+}
