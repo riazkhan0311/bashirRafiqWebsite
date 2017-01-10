@@ -10,3 +10,11 @@
     font-size: 18px;
 }
 
+.aboutImage {
+    max-width: 50%;
+    opacity: 50%;
+}
+
+.center {
+    text-align: center;
+}
