@@ -6,7 +6,8 @@
 
 body {
     font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
-    background: url('../img/5.jpg') no-repeat center center fixed;
+    /*background: url('../img/5.jpg') no-repeat center center fixed;*/
+    background-color: white;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -81,7 +82,8 @@ hr {
     margin-bottom: 20px;
     padding: 30px 15px;
     background: #fff;
-    background: rgba(255,255,255,0.9);
+    /*background: rgba(255,255,255,0.9);*/
+    background: #f0f2f0;
 }
 
 .intro-text {
