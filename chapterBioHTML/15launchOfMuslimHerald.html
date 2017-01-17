@@ -33,8 +33,9 @@
 
 <body>
 
-<div class="brand">Bashir Rafiq</div>
+<div class="brand">Bashir Ahmad Rafiq</div>
 <div class="address-bar">formerly the Imam of the London Mosque</div>
+<div class="bismillah img-responsive text-center hidden-xs"><img src="../img/indexImg/bismillah.jpeg" width="30%"></div>
 
 <!-- Navigation -->
 <nav class="navbar navbar-default" role="navigation">
@@ -48,7 +49,7 @@
                 <span class="icon-bar"></span>
             </button>
             <!-- navbar-brand is hidden on larger screens, but visible when the menu is collapsed -->
-            <a class="navbar-brand" href="../index.html">Bashir Rafiq</a>
+            <a class="navbar-brand" href="../index.html">Bashir Ahmad Rafiq</a>
         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -56,8 +57,12 @@
                 <li>
                     <a href="../index.html">Home</a>
                 </li>
-                <li>
-                    <a href="../about.html">About</a>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="about.html">About Bashir Rafiq</a></li>
+                        <li><a href="aboutFamily.html">About Bashir Rafiq Family</a></li>
+                    </ul>
                 </li>
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Biography <span class="caret"></span></a>
@@ -76,21 +81,29 @@
                     </ul>
                 </li>
 
-                <li>
-                    <a href="https://bashirrafiq.wordpress.com/" target="_blank">Blog</a>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Media <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="index.html">Videos</a></li>
+                        <li><a href="index.html">Photos</a></li>
+                    </ul>
                 </li>
                 <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Misc <span class="caret"></span></a>
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Publications <span class="caret"></span></a>
                     <ul class="dropdown-menu">
-                        <li><a href="#">Huzoor Letter</a></li>
-                        <li><a href="#">Bashir Rafiq Letter</a></li>
-                        <li><a href="#">Urdu Poetry</a></li>
-                        <li><a href="#">Jazbaat e Bismil</a></li>
+                        <li><a href="#">Articles</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#">Blogs</a></li>
                         <li class="divider"></li>
                         <li><a href="#">Books</a></li>
-                        <li class="divider"></li>
-                        <li><a href="#">Family Photos</a></li>
                     </ul>
+                </li>
+                <li>
+                    <a href="friends.html">Friends</a>
+                </li>
+
+                <li>
+                    <a href="more.html">More</a>
                 </li>
             </ul>
         </div>
@@ -98,6 +111,8 @@
     </div>
     <!-- /.container -->
 </nav>
+
+<div class="bismillah img-responsive text-center hidden-sm hidden-md hidden-lg"><img src="img/indexImg/bismillah.jpeg" width="60%"></div>
 
 <div class="container">
 
@@ -172,6 +187,8 @@
                 <div class="col-lg-12 text-center">
                     <ul class="pager">
                         <li class="previous"><a href="14diabetes.html">&larr; Chapter 14</a>
+                        </li>
+                        <li class="middle"><a href="../index.html">Home</a>
                         </li>
                         <li class="next"><a href="#">Chapter 16 &rarr;</a>
                         </li>

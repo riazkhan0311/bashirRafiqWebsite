@@ -48,3 +48,23 @@
 .pager .middle > span {
     float: none;
 }
+
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)  {
+    .navbar-nav {
+        font-size: .7em;
+        margin: 0 auto;
+
+    }
+}
+
+@media only screen
+and (min-device-width : 1024px)
+and (max-device-width : 1366px) {
+    .navbar-nav {
+        font-size: 1.3em;
+        margin: 0 auto;
+
+    }
+}
